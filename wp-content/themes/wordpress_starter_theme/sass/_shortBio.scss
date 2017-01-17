@@ -1,0 +1,183 @@
+
+// ------------ SHORT BIO -------------
+
+.shortBio-container {
+	padding: 150px 0 0 0;
+	transition: .3s;
+
+	@media all and (max-width: 1024px) {
+		padding: 40px 0 0 0;
+	}
+	@media all and (max-width: 768px) {
+		padding: 40px 0 0 0;
+	}
+}
+
+.shortBio-wrapper {
+	padding: 60px 0;
+	display: flex;
+	-webkit-display: flex;
+	flex-direction: row;
+	-webkit-flex-direction: row;
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+	transition: .3s;
+
+	@media all and (max-width: 1024px) {
+		display: block;
+	}
+
+	@media (max-width: 580px) {
+		padding: 30px 0;
+	}
+
+	@media (max-width: 480px) {
+		padding: 10px 0;
+	}
+
+	@media (max-width: 320px) {
+		padding: 0;
+	}
+
+}
+
+// BIO IMAGE -----------------
+
+.shortBio-img {
+	padding: 0 15px 0 0;
+	transition: .3s;
+
+	@media all and (max-width: 1024px) {
+		 padding: 0;
+		 width: 600px;
+		 margin: 0 auto;
+	}
+
+	@media all and (max-width: 660px) {
+		max-width: 100%;
+		height: auto;
+	}
+}
+
+.shortBio-img img {
+	height: auto;
+	max-width: 100%;
+	transition: .3s;
+
+	@media all and (max-width: 1024px) {
+		max-width: 600px;
+		padding: 0;
+		margin: 0 auto;
+	}
+
+	@media all and (max-width: 660px) {
+		max-width: 100%;
+		height: auto;
+	}
+}
+
+// BIO TEXT -----------------
+
+.shortBio-text {
+	max-width: 600px;
+	padding: 30px 15px 0 15px;
+	transition: .3s;
+
+	@media (max-width: 1024px) {
+		margin: 0 auto;
+	}
+
+	@media(max-width: 1170px) {
+		padding: 0 15px;
+	}
+
+	@media(max-width: 1024px) {
+		padding: 30px 15px 0 15px;
+	}
+}
+
+.shortBio-text h2 {
+	letter-spacing: 1px;
+	font-size: 58px;
+	margin: 0 20px 20px 20px;
+	transition: .3s;
+
+	@media (max-width: 1315px) {
+		font-size: 50px;
+	}
+
+	@media (max-width: 580px) {
+		font-size: 40px;
+	}
+
+	@media (max-width: 480px) {
+		font-size: 30px;
+	}
+
+	@media (max-width: 320px) {
+		font-size: 24px;
+	}
+}
+
+.shortBio-text .text-intro {
+	font-family: $secondary-font;
+	font-size: 20px;
+	font-weight: 300;
+	letter-spacing: 1px;
+	line-height: 40px;
+	color: $copy-dark;
+	margin: 0 20px 40px 20px;
+	transition: .3s;
+
+	@media (max-width: 1315px) {
+		font-size: 15px;
+		line-height: 25px;
+	}
+}
+
+.shortBio-paragraphs {
+	display: flex;
+	flex-direction: row;
+	transition: .3s;
+
+	@media (max-width: 480px) {
+		display: block;
+	}
+}
+
+.short-bio-1, .short-bio-2 {
+	max-width: 50%;
+	padding: 0 20px;
+	transition: .3s;
+
+	@media (max-width: 480px) {
+		max-width: 100%;
+	}
+}
+
+.short-bio-1 h3, .short-bio-2 h3 {
+	font-size: 14px;
+	text-align: left;
+	color: $second-color;
+}
+
+.short-bio-1 p, .short-bio-2 p{
+	font-family: $secondary-font;
+	font-size: 16px;
+	font-weight: 300;
+	letter-spacing: 1px;
+	line-height: 32px;
+	color: $copy-dark;
+	margin-bottom: 20px;
+	text-align: left;
+	transition: .3s;
+
+	@media (max-width: 1315px) {
+		font-size: 14px;
+		line-height: 28px;
+	}
+
+	@media (max-width: 480px) {
+		line-height: 24px;
+	}
+}

@@ -1,0 +1,114 @@
+
+// ------------ CONTACT -------------
+
+.contact-container {
+	padding: 150px 0 60px 0;
+
+	@media all and (max-width: 980px) {
+		padding: 60px 0 30px 0;
+	}
+	@media all and (max-width: 768px) {
+		padding: 40px 0 20px 0;
+	}
+}
+
+.contact-container h2 {
+	transition: .3s;
+
+	@media all and (max-width: 480px) {
+		font-size: 50px;
+	}
+
+	@media all and (max-width: 340px) {
+		font-size: 40px;
+	}
+}
+
+.contact-wrapper {
+	background: $background-2;
+	max-height: 365px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	@media (max-width: 1090px) {
+		height: auto;
+	}
+
+	@media (max-width: 590px) {
+		max-height: 100%;
+	}
+}
+
+// SOCIAL LINKS ---------------------
+
+.contact-links-container {
+	padding: 60px 0 0 60px;
+	width: 60%;
+	transition: .3s;
+
+	@media (max-width: 1100px) {
+		width: 100%;
+		padding: 60px 0 30px 60px;
+	}
+
+	@media (max-width: 590px) {
+		padding: 30px;
+	}
+}
+
+.contact-links {
+	float: left;
+	width: 50%;
+
+	@media (max-width: 590px) {
+		width: 100%;
+	}
+}
+
+.jen-web {
+	margin-bottom: 30px;
+}
+
+.jen-web p {
+	font-family: $secondary-font;
+	font-size: 20px;
+	color: $second-color;
+	margin: 0;
+
+	@media (max-width: 1199px) {
+		font-size: 18px;
+	}
+}
+
+.jen-web a {
+	font-family: $primary-font;
+	font-size: 18px;
+	margin: 0;
+	color: $black;
+	transition: .5s;
+
+	&:hover {
+		color: $second-color;
+	}
+
+	@media (max-width: 1199px) {
+		font-size: 16px;
+	}
+}
+
+// MAP  -----------------------------
+
+.contact-map {
+	transition: .3s;
+
+	@media (max-width: 1100px) {
+		display: none;
+	}
+
+}
+
+.google-maps-builder-wrap {
+	height: 100%;
+	width: 40%;
+}

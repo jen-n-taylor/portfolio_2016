@@ -1,0 +1,92 @@
+
+// ------------ FOOTER -------------
+
+footer {
+	height: 60px;
+	font-family: $primary-font;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: $black;
+	font-size: 15px;
+	font-weight: 700;
+	background-color: #fff;
+
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	transition: .3s;
+
+    @media all and (max-width: 480px) {
+    	height: 20px;
+    }
+}
+
+.footer-wrapper {
+	display: flex;
+	-webkit-display: flex;
+	flex-direction: row;
+	-webkit-flex-direction: row;
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+	align-items: center;
+	-webkit-align-items: center;
+	padding: 0 60px;
+
+	@media all and (max-width: 779px) {
+        padding: 0 30px;
+    }
+
+    @media all and (max-width: 480px) {
+    	display: none;
+    }
+}
+
+.footer-info {
+	display: flex;
+	-webkit-display: flex;
+	flex-direction: row;
+	-webkit-flex-direction: row;
+}
+
+.footer-info p {
+	padding: 0 15px 0 0;
+}
+
+.footer-info span {
+	font-family: $primary-font;
+}
+
+.footer-info a {
+	color: $black;
+	transition: color .5s;
+
+	&:hover {
+		color: $second-color;
+	}
+}
+
+.footer-social-nav ul {
+	list-style-type: none;
+	margin: 0;
+
+	display: flex;
+	-webkit-display: flex;
+	flex-direction: row;
+	-webkit-flex-direction: row;
+}
+
+.footer-social-nav li a {
+	padding: 0 0 0 20px;
+	font-size: 18px;
+	color: $black;
+	transition: color .5s;
+
+	&:hover {
+		color: $second-color;
+	}
+}
+
+
+

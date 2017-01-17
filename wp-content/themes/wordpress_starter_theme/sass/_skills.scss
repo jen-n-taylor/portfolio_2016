@@ -1,0 +1,166 @@
+
+// ------------ SKILLS -------------
+
+.skills-container {
+	transition: .3s;
+	padding: 0;
+
+	@media all and (max-width: 980px) {
+		padding: 60px 0 0 0;
+	}
+	@media all and (max-width: 768px) {
+		padding: 40px 0 0 0;
+	}
+
+}
+
+.skills-container h2 {
+	text-align: right;
+	transition: .3s;
+
+	@media all and (max-width: 480px) {
+		font-size: 50px;
+	}
+
+	@media all and (max-width: 340px) {
+		font-size: 40px;
+	}
+}
+
+.skills-tools-container {
+	display: flex;
+	flex-direction :row;
+	background-color: $background-2;
+	padding: 50px;
+
+	@media all and (max-width: 540px) {
+		padding: 30px;
+	}
+}
+
+// SKILLS ----------------------
+
+.skills-and-interests {
+	display: flex;
+	flex-direction: column;
+	width: 65%;
+	padding: 50px 50px 50px 70px;
+
+	@media all and (max-width: 1305px) {
+		padding: 25px 30px 25px 40px;
+	}
+
+	@media all and (max-width: 1000px) {
+		padding: 0 0 0 40px;
+	}
+
+	@media (max-width: 930px) {
+		width: 100%;
+	}
+
+	@media (max-width: 930px) {
+		padding: 0;
+	}
+}
+
+.skills-blurb {
+	font-family: $secondary-font;
+	font-size: 16px;
+	letter-spacing: 1px;
+	line-height: 1.5;
+	color: $black;
+	margin:20px 0;
+	text-align: left;
+
+	@media (max-width: 1085px) {
+		margin: 0 0 20px 0;
+	}
+	@media (max-width: 930px) {
+		margin: 0 0 30px 0;
+	}
+	@media all and (max-width: 480px) {
+		font-size: 15px;
+		text-align: left;
+	}
+}
+
+// IMAGE ------------------------
+
+.skills-img {
+	width: 35%;
+	transition: .3s;
+
+	@media (max-width: 930px) {
+		display: none;
+	}
+
+}
+
+// SKILLS & INTERESTS -----------------------
+
+.skills-text {
+	padding: 50px 0;
+	transition: .3s;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	text-align: left;
+
+	@media (max-width: 1235px) {
+		padding: 25px 0;
+	}
+
+	@media (max-width: 1160px) {
+		padding: 0;
+	}
+
+	@media (max-width: 930px) {
+		text-align: left;
+	}
+}
+
+
+.tools {
+	padding-left: 100px;
+
+	@media all and (max-width: 480px) {
+		padding-left: 50px;
+	}
+}
+
+
+
+.skills h3, .tools h3 {
+	font-size: 26px;
+	text-align: left;
+	display: block;
+	margin-bottom: 0;
+	transition: .3s;
+
+	@media (max-width: 1050px) {
+		margin: 0;
+	}
+
+	@media (max-width: 350px) {
+		// text-align: center;
+	}
+
+	@media (max-width: 930px) {
+		text-align: left;
+	}
+}
+
+.skills, .tools {
+	ul {
+		padding: 0;
+		li {
+			font-family: $secondary-font;
+			list-style-type: none;
+			font-size: 16px;
+			font-weight: 600;
+			letter-spacing: 1px;
+			color: $black;
+			line-height: 1.75;
+		}
+	}
+}

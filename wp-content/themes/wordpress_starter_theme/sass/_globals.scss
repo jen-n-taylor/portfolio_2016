@@ -1,0 +1,70 @@
+
+// ------------ GLOBALS -------------
+
+// COLORS ---------------------------
+
+$black:  #333333;
+$white: #fff;
+$main-color: rgb(13, 61, 109); //dark blue #0d3d6d
+$second-color: rgb(241, 185, 36); // yellow #f1b924
+// $second-color: rgb(247, 163, 105); // peach #f7a369
+$fourth-color: rgb(76, 198, 145); // teal #4cc691
+
+$background: rgb(245, 248, 250); // background-grey
+$background-2: #f9f9f9;
+
+$copy-dark: #66757f;
+
+// Z-INDEX --------------------------
+$z-index-highest: 4;
+$z-index-high: 3;
+$z-index-medium: 2;
+$z-index-low: 1;
+
+// MAIN MEDIA QUERIES --------------
+
+/* Portrait tablet and small desktops */
+@media (max-width: 940px) {
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+}
+
+// IMAGES --------------------------
+
+img {
+	max-width: 100%;
+}
+
+// BODY / MAIN ----------------------------
+
+body {
+	padding: 60px;
+	transition: .3s;
+
+	@media all and (max-width: 779px) {
+        padding: 30px;
+    }
+
+    @media all and (max-width: 480px) {
+    	padding: 10px;
+    }
+}
+
+// WRAPPER -------------------------
+
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.full {
+	width: 100%;
+}
+
+// VISUALLY HIDDEN -----------------------
